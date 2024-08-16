@@ -15,7 +15,7 @@ BUILD = main.cpp
 #all: $(SRC)
 #	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
 all: $(BUILD)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(BUILD)
+	$(CXX) $(CXXFLAGS) $(BUILD)
 
 # Clean target to remove the compiled files
 clean:
